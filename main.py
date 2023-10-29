@@ -34,7 +34,7 @@ def create_ground(space, width, height):
 def run(window, width, height):
     run = True
     clock = pygame.time.Clock()
-    fps = 60
+    fps = 150
     dt = 1/fps
 
     space = pymunk.Space()
